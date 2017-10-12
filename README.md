@@ -1,11 +1,15 @@
-IBM: https://www.ibm.com/watson/developercloud/visual-recognition/api/v3/
+### IBM
 
-IBM Demo: https://visual-recognition-demo.mybluemix.net/
+- IBM Visual Recognition: https://www.ibm.com/watson/developercloud/visual-recognition/api/v3/
+- IBM Demo: https://visual-recognition-demo.mybluemix.net/
 
+<br />
 
-Google: https://cloud.google.com/vision/docs/reference/libraries
+### Google
+- Google Vision: https://cloud.google.com/vision/docs/reference/libraries
+- Google Demo: https://cloud.google.com/vision/
 
-Google Demo: https://cloud.google.com/vision/
+<br />
 
-
-Python: https://github.com/ageitgey/face_recognition
+### Python
+- `face_recognition` library: https://github.com/ageitgey/face_recognition
