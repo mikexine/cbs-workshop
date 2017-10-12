@@ -18,15 +18,12 @@ y_data = data.filter(['like_count'], axis=1).fillna(0)
 # Split the dataset into train and test with a 80-20 ratio
 x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=0.2)
 
-# Create a KNN regressor from sklearn
-forest = RandomForestRegressor(n_estimators=100, n_jobs=-1)
 
-# Train the model
-forest.fit(x_train, y_train)
 
-# Display the R squared score of the match between predicted and true value
+forest = RandomForestRegressor(n_estimators=2, max_depth=22, n_jobs=-1)
+forest.fit(x_train, y_train.values.ravel())
+
 print(forest.score(x_test, y_test))
-
 # Generate the predicted column of data
 y_predict = forest.predict(x_test)
 
