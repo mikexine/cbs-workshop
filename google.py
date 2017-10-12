@@ -2,7 +2,7 @@ import requests
 from os import environ 
 
 
-api = environ.get("API_KEY")
+api = environ.get("GOOGLE")
 
 url = "https://vision.googleapis.com/v1/images:annotate?key=" + api
 
